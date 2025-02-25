@@ -1,0 +1,39 @@
+# Sample YAML file for testing
+
+person:
+  name: John Doe
+  age: 30
+  address:
+    street: 123 Main St
+    city: Sample City
+    zip_code: 12345
+  hobbies:
+    - reading
+    - hiking
+    - cooking
+  contact:
+    email: johndoe@example.com
+    phone: "+1234567890"
+  
+products:
+  - id: 001
+    name: Laptop
+    price: 799.99
+    specs:
+      brand: TechBrand
+      model: X1
+      screen_size: 15.6
+      weight: 2.5
+  - id: 002
+    name: Smartphone
+    price: 499.99
+    specs:
+      brand: PhoneCo
+      model: Y20
+      screen_size: 6.1
+      weight: 0.3
+
+config:
+  enable_feature_x: true
+  max_retries: 5
+  timeout_seconds: 30
