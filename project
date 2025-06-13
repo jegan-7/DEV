@@ -1,0 +1,13 @@
+You mentioned you are working on building front end module in this sprint right? Can you elaborate on it including architecture and tech/tool stack? Any other devops/infra resource from vendor or Amgen team or you are the only one?
+From devOps side I am the one who is working for the project. Attached the Project Arch. 
+Current for the initial sprint the task is to build the frontend deployment services - S3, R53, Cloud front dsb via terraform for both prod and dev env which the tf script should be dynamic using tfvars. 
+Bharath is the single point contact for this gmaap2.0 bioconnect project.
+He asked to build the structure of dev and prod in the initial sprint along with the cicd pipeline for the deployment.
+ 
+Another side I have worked on the integration part where I have pushed my front end services like s3, cfd, r53 to gitlab centrally managed and from there I am trying to provision the infra in the AWS. Currently I am working on the OIDC part where I have few permisson issue which is being raised with Amgen team.
+BioConnect.drawio.png
+ 
+Once the front end service is provisioned and front end code is deployed in the s3 for static web hosting along with the AD  attached for user interface. Second sprint will be the backend services using docker image pushed to ECR and deployed in the ECS. For DB we have planned to use the RDS.
+ 
+For the source of truth (Data) - from databricks developer is fetching data. 
+ 
